@@ -1,4 +1,7 @@
 package com.box.domin;
 
-public class Work {
+import java.io.Serializable;
+
+public class Work implements Serializable {
+    private Integer id;
 }
